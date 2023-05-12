@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2, dividendo, divisor, quociente, resto;
+
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &num1);
+
+    printf("Digite o segundo numero: ");
+    scanf("%d", &num2);
+
+    dividendo = num1;
+    divisor = num2;
+    quociente = num1 / num2;
+    resto = num1 % num2;
+
+    printf("Dividendo: %d\n", dividendo);
+    printf("Divisor: %d\n", divisor);
+    printf("Quociente: %d\n", quociente);
+    printf("Resto: %d\n", resto);
+
+    return 0;
+}
